@@ -1,0 +1,23 @@
+.genre-wrapper {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: var(--secondary);
+}
+
+.genre-wrapper .genres {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.genre-wrapper__label {
+    padding: 8px 0;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.genres .selector__option.active {
+    box-shadow: var(--shadow);
+}
